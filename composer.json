@@ -1,0 +1,21 @@
+{
+    "name": "icemi/quantixon",
+    "authors": [
+        {
+            "name": "VLad",
+            "email": "icemicher@gmail.com"
+        }
+    ],
+    "description": "quantixon test task",
+    "require": {
+        "ext-pdo": "^7.3",
+        "ext-json": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "App/core",
+            "DAO\\": "App/DAO",
+            "Helpers\\": "App/helpers"
+        }
+    }
+}
